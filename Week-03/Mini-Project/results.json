@@ -1,0 +1,19 @@
+{
+  "fully_connected": {
+    "parameters": 235146,
+    "val_acc": 0.8952,
+    "test_acc": 0.8837
+  },
+  "small_cnn": {
+    "parameters": 105866,
+    "val_acc": 0.9117,
+    "test_acc": 0.9088
+  },
+  "final_cnn": {
+    "parameters": 241994,
+    "val_acc": 0.9158,
+    "test_acc": 0.9098
+  },
+  "hardest_category": "Shirt",
+  "easiest_category": "Sandal"
+}

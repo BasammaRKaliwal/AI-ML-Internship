@@ -1,0 +1,22 @@
+{
+  "class_names": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ],
+  "mean": 0.2860405743122101,
+  "std": 0.3530242443084717,
+  "input_size": [
+    1,
+    28,
+    28
+  ],
+  "test_accuracy": 0.9098
+}
