@@ -1,0 +1,52 @@
+{
+  "dataset_name": "TrashNet (Thung and Yang, Stanford, 2016)",
+  "dataset_url": "https://github.com/garythung/trashnet",
+  "source": "raw_dataset\\dataset-resized",
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic"
+  ],
+  "seed": 42,
+  "hash_distance": 4,
+  "found": {
+    "cardboard": 403,
+    "glass": 501,
+    "metal": 410,
+    "paper": 594,
+    "plastic": 482
+  },
+  "unreadable_files": 0,
+  "exact_duplicates_removed": 3,
+  "near_duplicate_groups": 33,
+  "images_in_near_dup_groups": 151,
+  "leakage_check": {
+    "exact": 0,
+    "near": 0
+  },
+  "splits": {
+    "train": {
+      "cardboard": 281,
+      "glass": 351,
+      "metal": 285,
+      "paper": 416,
+      "plastic": 336
+    },
+    "val": {
+      "cardboard": 61,
+      "glass": 75,
+      "metal": 62,
+      "paper": 89,
+      "plastic": 72
+    },
+    "test": {
+      "cardboard": 61,
+      "glass": 75,
+      "metal": 62,
+      "paper": 89,
+      "plastic": 72
+    }
+  }
+}

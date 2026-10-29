@@ -1,0 +1,81 @@
+{
+  "final_model": "transfer",
+  "test_accuracy": 0.8969,
+  "stats": {
+    "n_test": 359,
+    "n_wrong": 37,
+    "avg_conf_correct": 0.8854458928108215,
+    "avg_conf_wrong": 0.6313658356666565,
+    "wrong_high_conf": 8
+  },
+  "configurations": [
+    {
+      "key": "baseline",
+      "title": "Baseline CNN",
+      "size": 128,
+      "augment": false,
+      "epochs": 15,
+      "params": 1072549,
+      "seconds": 320.5,
+      "val_acc": 0.7075,
+      "test_acc": 0.6964,
+      "best_epoch": 6
+    },
+    {
+      "key": "improved",
+      "title": "Improved CNN",
+      "size": 128,
+      "augment": true,
+      "epochs": 25,
+      "params": 390181,
+      "seconds": 1277.9,
+      "val_acc": 0.7604,
+      "test_acc": 0.7493,
+      "best_epoch": 23
+    },
+    {
+      "key": "transfer",
+      "title": "Pretrained MobileNetV2",
+      "size": 224,
+      "augment": true,
+      "epochs": 8,
+      "params": 2230277,
+      "seconds": 770.8,
+      "val_acc": 0.9109,
+      "test_acc": 0.8969,
+      "best_epoch": 8
+    }
+  ],
+  "per_class": {
+    "cardboard": {
+      "precision": 0.9818,
+      "recall": 0.8852,
+      "f1": 0.931,
+      "images": 61
+    },
+    "glass": {
+      "precision": 0.8923,
+      "recall": 0.7733,
+      "f1": 0.8286,
+      "images": 75
+    },
+    "metal": {
+      "precision": 0.9206,
+      "recall": 0.9355,
+      "f1": 0.928,
+      "images": 62
+    },
+    "paper": {
+      "precision": 0.8969,
+      "recall": 0.9775,
+      "f1": 0.9355,
+      "images": 89
+    },
+    "plastic": {
+      "precision": 0.8228,
+      "recall": 0.9028,
+      "f1": 0.8609,
+      "images": 72
+    }
+  }
+}
