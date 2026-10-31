@@ -51,7 +51,11 @@ The model made 37 mistakes on 359 test images. The most common were Glass predic
 
 ![Failure examples](images/failure_examples.png)
 
-WRITE here, for three of the pictures above: what the item really is, what the model predicted, and why they may look alike.
+1. **Glass predicted as Plastic (89%).** This is a green glass bottle photographed from directly above, so only a small green ring is visible on a white background. The bottle's shape is hidden, and a plain round opening could just as well be the neck of a plastic bottle.
+
+2. **Plastic predicted as Glass (83%).** This is a clear plastic bottle with a green cap, lying on a white background. Transparent and shiny, with a bottle outline, it looks like a glass bottle, which is the confusion glass and plastic have the most in this dataset.
+
+3. **Cardboard predicted as Paper (87%).** The picture is mainly a printed box with a wok and vegetables on it, covered in printed text and colour. The model sees printed, flat white-and-grey material rather than the rough brown texture of plain cardboard, so it chooses Paper.
 
 Suggested improvements:
 1. Add more and more varied photos of glass (clear and coloured) and plastic bottles, to reduce the biggest confusion.
