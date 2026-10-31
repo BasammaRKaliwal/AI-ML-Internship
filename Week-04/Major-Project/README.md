@@ -76,4 +76,4 @@ The pretrained MobileNetV2 was clearly the best model (89.7% test accuracy), 15 
 - Recycling rules differ by place and depend on how clean the item is. This tool only looks at a picture and must not be the only basis for sorting decisions.
 
 ## Demo video
-ADD the link to your 2 to 3 minute demonstration video here.
+https://drive.google.com/file/d/1ksN5EtQoOhYCPBjDn0VArIITNBxAosIY/view?usp=sharing
